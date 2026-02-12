@@ -1,0 +1,29 @@
+name: Release-Java
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Maven Central Repository
+        uses: actions/setup-java@v4
+        with:
+          java-version: '8'
+          distribution: 'temurin'
+          server-id: central-portal
+          server-username: MAVEN_USERNAME
+          server-password: MAVEN_PASSWORD
+      - name: "Publish package"
+        env:
+          MAVEN_USERNAME: ${{ secrets.CENTRAL_PORTAL_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.CENTRAL_PORTAL_TOKEN }}
+        run: |
+          cd source/java
+          bash build.sh
+          cd polaris-specification
+          cat <(echo -e "${{ secrets.GPG_PRIVATE_KEY }}") | gpg --batch --import;
+          mvn clean deploy -B -U -P release -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} -Dmaven.test.skip=true
