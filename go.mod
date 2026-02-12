@@ -4,8 +4,8 @@ go 1.22
 
 require (
 	github.com/BurntSushi/toml v0.3.1
-	github.com/NHYCRaymond/tnet v1.0.0-new
-	github.com/NHYCRaymond/trpc-protocol v1.0.0-new
+	github.com/NHYCRaymond/tnet v1.0.2
+	github.com/NHYCRaymond/trpc-protocol v1.0.1
 	github.com/cespare/xxhash v1.1.0
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/go-playground/form/v4 v4.2.0

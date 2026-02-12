@@ -1,9 +1,9 @@
 github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/NHYCRaymond/tnet v1.0.0-new h1:bG3C/4H8q104Djyc+6Zqbm1PiAmS4Ubit7sCxycCVic=
-github.com/NHYCRaymond/tnet v1.0.0-new/go.mod h1:MypSmMNaY/YgLXLl/kHO2iVcMYP/uij9qGeDSAfe4mw=
-github.com/NHYCRaymond/trpc-protocol v1.0.0-new h1:jcytIJHNK18HFQIwuOk4DPT93u+o7y1morZz3N6jxMQ=
-github.com/NHYCRaymond/trpc-protocol v1.0.0-new/go.mod h1:EYcSOf/JKTSRGk7m0mrr+iv6TpmISb+7oFVP/2Ci5Xg=
+github.com/NHYCRaymond/tnet v1.0.2 h1:YxrHWLxfzb5LDJ7+ZKozs+sBDExW3woe9TR9ok9BG0w=
+github.com/NHYCRaymond/tnet v1.0.2/go.mod h1:MypSmMNaY/YgLXLl/kHO2iVcMYP/uij9qGeDSAfe4mw=
+github.com/NHYCRaymond/trpc-protocol v1.0.1 h1:yrnz1RDoKakKCvmjD6iJX3ZJ/FSL0YJYWvoECfIw6qc=
+github.com/NHYCRaymond/trpc-protocol v1.0.1/go.mod h1:EYcSOf/JKTSRGk7m0mrr+iv6TpmISb+7oFVP/2Ci5Xg=
 github.com/OneOfOne/xxhash v1.2.2 h1:KMrpdQIwFcEqXDklaen+P1axHaj9BSKzvpUUfnHldSE=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/andybalholm/brotli v1.0.4 h1:V7DdXeJtZscaqfNuAdSRuRFzuiKlHSC/Zh3zl9qY3JY=
