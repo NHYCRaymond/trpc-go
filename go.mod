@@ -1,4 +1,4 @@
-module trpc.group/trpc-go/trpc-go
+module github.com/NHYCRaymond/trpc-go
 
 go 1.18
 
