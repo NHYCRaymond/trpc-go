@@ -24,10 +24,10 @@ import (
 	"log"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/errs"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 var defaultStreamID uint32 = 100

@@ -18,11 +18,11 @@ import (
 	"context"
 	"flag"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/errs"
-	pb "trpc.group/trpc-go/trpc-go/examples/features/rpcz/proto"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/rpcz"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	pb "github.com/NHYCRaymond/trpc-go/examples/features/rpcz/proto"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
 )
 
 const attributeName = "SpecialAttribute"

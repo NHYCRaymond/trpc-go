@@ -20,7 +20,7 @@ import (
 	"io"
 	"net"
 
-	"trpc.group/trpc-go/trpc-go/internal/allocator"
+	"github.com/NHYCRaymond/trpc-go/internal/allocator"
 )
 
 // New creates a packet buffer with specific packet connection and size.

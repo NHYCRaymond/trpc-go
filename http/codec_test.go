@@ -29,14 +29,14 @@ import (
 	"strings"
 	"testing"
 
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	thttp "trpc.group/trpc-go/trpc-go/http"
-	"trpc.group/trpc-go/trpc-go/server"
-	"trpc.group/trpc-go/trpc-go/testdata/restful/helloworld"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	thttp "github.com/NHYCRaymond/trpc-go/http"
+	"github.com/NHYCRaymond/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/testdata/restful/helloworld"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

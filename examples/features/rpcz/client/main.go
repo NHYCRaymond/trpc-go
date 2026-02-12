@@ -15,9 +15,9 @@
 package main
 
 import (
-	trpc "trpc.group/trpc-go/trpc-go"
-	pb "trpc.group/trpc-go/trpc-go/examples/features/rpcz/proto"
-	"trpc.group/trpc-go/trpc-go/log"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	pb "github.com/NHYCRaymond/trpc-go/examples/features/rpcz/proto"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 func main() {

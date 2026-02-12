@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"net"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/packetbuffer"
-	"trpc.group/trpc-go/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/packetbuffer"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
 )
 
 const defaultUDPRecvBufSize = 64 * 1024

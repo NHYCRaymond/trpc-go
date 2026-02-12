@@ -16,7 +16,7 @@
 package servicerouter
 
 import (
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 // DefaultServiceRouter is the default service router which is initialized by configuration.

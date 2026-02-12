@@ -28,8 +28,8 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/plugin"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/plugin"
 )
 
 func TestNewZapLog(t *testing.T) {

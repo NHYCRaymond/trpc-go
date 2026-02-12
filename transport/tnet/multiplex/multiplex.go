@@ -28,13 +28,13 @@ import (
 
 	"go.uber.org/atomic"
 	"golang.org/x/sync/singleflight"
-	"trpc.group/trpc-go/tnet"
+	"github.com/NHYCRaymond/tnet"
 
-	"trpc.group/trpc-go/trpc-go/internal/queue"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/metrics"
-	"trpc.group/trpc-go/trpc-go/pool/connpool"
-	"trpc.group/trpc-go/trpc-go/pool/multiplexed"
+	"github.com/NHYCRaymond/trpc-go/internal/queue"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/metrics"
+	"github.com/NHYCRaymond/trpc-go/pool/connpool"
+	"github.com/NHYCRaymond/trpc-go/pool/multiplexed"
 )
 
 /*

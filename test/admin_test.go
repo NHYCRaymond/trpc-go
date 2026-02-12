@@ -25,16 +25,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/admin"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/config"
-	"trpc.group/trpc-go/trpc-go/filter"
-	"trpc.group/trpc-go/trpc-go/healthcheck"
-	"trpc.group/trpc-go/trpc-go/rpcz"
-	"trpc.group/trpc-go/trpc-go/server"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/admin"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/config"
+	"github.com/NHYCRaymond/trpc-go/filter"
+	"github.com/NHYCRaymond/trpc-go/healthcheck"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/server"
 
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
 )
 
 func (s *TestSuite) TestAdmin() {

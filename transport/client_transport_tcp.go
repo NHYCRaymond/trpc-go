@@ -18,12 +18,12 @@ import (
 	"net"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	"trpc.group/trpc-go/trpc-go/pool/connpool"
-	"trpc.group/trpc-go/trpc-go/pool/multiplexed"
-	"trpc.group/trpc-go/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/pool/connpool"
+	"github.com/NHYCRaymond/trpc-go/pool/multiplexed"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
 )
 
 // tcpRoundTrip sends tcp request. It supports send, sendAndRcv, keepalive and multiplex.

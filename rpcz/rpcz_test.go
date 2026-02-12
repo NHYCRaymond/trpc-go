@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 func TestRPCZ_NewChildSpan(t *testing.T) {

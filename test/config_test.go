@@ -26,13 +26,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 	yaml "gopkg.in/yaml.v3"
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/config"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/server"
-	"trpc.group/trpc-go/trpc-go/test/naming"
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/config"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/test/naming"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
 )
 
 func (s *TestSuite) TestClientConfigTimeoutPriority() {

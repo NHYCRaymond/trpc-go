@@ -17,8 +17,8 @@ import (
 	"context"
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/naming/bannednodes"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/bannednodes"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

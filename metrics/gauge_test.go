@@ -16,7 +16,7 @@ package metrics_test
 import (
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/metrics"
+	"github.com/NHYCRaymond/trpc-go/metrics"
 
 	"github.com/stretchr/testify/assert"
 )

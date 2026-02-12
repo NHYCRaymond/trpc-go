@@ -22,15 +22,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	icodec "trpc.group/trpc-go/trpc-go/internal/codec"
-	"trpc.group/trpc-go/trpc-go/internal/queue"
-	"trpc.group/trpc-go/trpc-go/transport"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	icodec "github.com/NHYCRaymond/trpc-go/internal/codec"
+	"github.com/NHYCRaymond/trpc-go/internal/queue"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 // Client is the Streaming client interface, NewStream is its only method.

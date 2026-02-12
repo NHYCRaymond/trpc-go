@@ -30,14 +30,14 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	thttp "trpc.group/trpc-go/trpc-go/http"
-	"trpc.group/trpc-go/trpc-go/restful"
-	"trpc.group/trpc-go/trpc-go/server"
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
-	httpdata "trpc.group/trpc-go/trpc-go/test/testdata"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	thttp "github.com/NHYCRaymond/trpc-go/http"
+	"github.com/NHYCRaymond/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/server"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
+	httpdata "github.com/NHYCRaymond/trpc-go/test/testdata"
 )
 
 func (s *TestSuite) TestHTTPRuleOK() {

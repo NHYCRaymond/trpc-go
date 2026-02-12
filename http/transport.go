@@ -37,17 +37,17 @@ import (
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
-	icontext "trpc.group/trpc-go/trpc-go/internal/context"
-	"trpc.group/trpc-go/trpc-go/internal/reuseport"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	icontext "github.com/NHYCRaymond/trpc-go/internal/context"
+	"github.com/NHYCRaymond/trpc-go/internal/reuseport"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	icodec "trpc.group/trpc-go/trpc-go/internal/codec"
-	itls "trpc.group/trpc-go/trpc-go/internal/tls"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/rpcz"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	icodec "github.com/NHYCRaymond/trpc-go/internal/codec"
+	itls "github.com/NHYCRaymond/trpc-go/internal/tls"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 func init() {

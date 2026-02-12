@@ -17,7 +17,7 @@ package discovery
 import (
 	"sync"
 
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 // DefaultDiscovery is the default discovery determined by configuration file.

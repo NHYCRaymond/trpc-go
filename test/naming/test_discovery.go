@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"sync"
 
-	"trpc.group/trpc-go/trpc-go/naming/discovery"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/discovery"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 func init() {

@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/naming/loadbalance"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/loadbalance"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 var defaultUpdateRate time.Duration = time.Second * 10

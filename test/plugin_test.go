@@ -19,9 +19,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/plugin"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/plugin"
 )
 
 func (s *TestSuite) TestTimeoutAtPluginRegister() {

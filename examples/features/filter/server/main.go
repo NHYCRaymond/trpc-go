@@ -17,15 +17,15 @@ package main
 import (
 	"context"
 
-	"trpc.group/trpc-go/trpc-go/examples/features/filter/shared"
+	"github.com/NHYCRaymond/trpc-go/examples/features/filter/shared"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/examples/features/common"
-	"trpc.group/trpc-go/trpc-go/filter"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/server"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/examples/features/common"
+	"github.com/NHYCRaymond/trpc-go/filter"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/server"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 func main() {

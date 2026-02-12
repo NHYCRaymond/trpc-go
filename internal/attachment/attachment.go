@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"io"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 // ClientAttachmentKey is the key of client's Attachment.

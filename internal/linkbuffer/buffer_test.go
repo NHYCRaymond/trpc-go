@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"trpc.group/trpc-go/trpc-go/internal/allocator"
-	. "trpc.group/trpc-go/trpc-go/internal/linkbuffer"
+	"github.com/NHYCRaymond/trpc-go/internal/allocator"
+	. "github.com/NHYCRaymond/trpc-go/internal/linkbuffer"
 )
 
 func BenchmarkBuf(b *testing.B) {

@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 
 	"github.com/stretchr/testify/assert"
 )

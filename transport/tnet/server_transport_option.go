@@ -20,7 +20,7 @@ import (
 	"runtime"
 	"time"
 
-	"trpc.group/trpc-go/tnet"
+	"github.com/NHYCRaymond/tnet"
 )
 
 // SetNumPollers sets the number of tnet pollers. Generally it is not actively used.

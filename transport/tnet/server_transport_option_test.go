@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	tnettrans "trpc.group/trpc-go/trpc-go/transport/tnet"
+	tnettrans "github.com/NHYCRaymond/trpc-go/transport/tnet"
 )
 
 func TestSetNumPollers(t *testing.T) {

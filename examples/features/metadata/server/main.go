@@ -17,10 +17,10 @@ package main
 import (
 	"context"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/log"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/log"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 func main() {

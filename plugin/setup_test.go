@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/require"
 	yaml "gopkg.in/yaml.v3"
 
-	"trpc.group/trpc-go/trpc-go/plugin"
+	"github.com/NHYCRaymond/trpc-go/plugin"
 )
 
 type config struct {

@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 
 	"github.com/go-playground/form/v4"
 	"github.com/mitchellh/mapstructure"

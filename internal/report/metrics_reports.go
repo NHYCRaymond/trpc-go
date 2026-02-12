@@ -15,7 +15,7 @@
 package report
 
 import (
-	"trpc.group/trpc-go/trpc-go/metrics"
+	"github.com/NHYCRaymond/trpc-go/metrics"
 )
 
 // Unified all metrics report inside the framework. Every property starts with "trpc.".

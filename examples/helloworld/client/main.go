@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/examples/helloworld/pb"
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/examples/helloworld/pb"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 func main() {

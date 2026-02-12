@@ -19,9 +19,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/metrics"
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/metrics"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
 )
 
 func (s *TestSuite) TestMetricsConsoleSink() {

@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/pool/connpool"
-	"trpc.group/trpc-go/trpc-go/pool/multiplexed"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/pool/connpool"
+	"github.com/NHYCRaymond/trpc-go/pool/multiplexed"
+	"github.com/NHYCRaymond/trpc-go/transport"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	trpc "trpc.group/trpc-go/trpc-go"
+	trpc "github.com/NHYCRaymond/trpc-go"
 )
 
 func TestTcpRoundTripPoolNIl(t *testing.T) {

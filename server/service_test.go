@@ -25,16 +25,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/filter"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-go/restful"
-	"trpc.group/trpc-go/trpc-go/server"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/filter"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/server"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 func init() {

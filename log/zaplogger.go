@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	"trpc.group/trpc-go/trpc-go/log/rollwriter"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/log/rollwriter"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

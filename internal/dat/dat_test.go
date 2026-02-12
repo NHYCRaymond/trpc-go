@@ -16,7 +16,7 @@ package dat_test
 import (
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/internal/dat"
+	"github.com/NHYCRaymond/trpc-go/internal/dat"
 )
 
 var fps = [][]string{

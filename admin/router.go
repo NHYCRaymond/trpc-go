@@ -20,8 +20,8 @@ import (
 	"runtime"
 	"sync"
 
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 // PanicBufLen is the length of the buffer used for stack trace logging

@@ -16,7 +16,7 @@ package frame_test
 import (
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/transport/internal/frame"
+	"github.com/NHYCRaymond/trpc-go/transport/internal/frame"
 )
 
 func TestShouldCopy(t *testing.T) {

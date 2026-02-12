@@ -21,7 +21,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"trpc.group/trpc-go/trpc-go/plugin"
+	"github.com/NHYCRaymond/trpc-go/plugin"
 )
 
 func init() {

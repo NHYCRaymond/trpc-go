@@ -3,7 +3,7 @@
 
 package client
 
-import "trpc.group/trpc-go/trpc-go/transport"
+import "github.com/NHYCRaymond/trpc-go/transport"
 
 func attemptSwitchingTransport(o *Options) transport.ClientTransport {
 	if o.Transport == nil {

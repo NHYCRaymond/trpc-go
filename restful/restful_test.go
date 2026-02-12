@@ -33,12 +33,12 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	thttp "trpc.group/trpc-go/trpc-go/http"
-	"trpc.group/trpc-go/trpc-go/restful"
-	"trpc.group/trpc-go/trpc-go/server"
-	bpb "trpc.group/trpc-go/trpc-go/testdata/restful/bookstore"
-	hpb "trpc.group/trpc-go/trpc-go/testdata/restful/helloworld"
-	"trpc.group/trpc-go/trpc-go/transport"
+	thttp "github.com/NHYCRaymond/trpc-go/http"
+	"github.com/NHYCRaymond/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/server"
+	bpb "github.com/NHYCRaymond/trpc-go/testdata/restful/bookstore"
+	hpb "github.com/NHYCRaymond/trpc-go/testdata/restful/helloworld"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 // helloworld service impl

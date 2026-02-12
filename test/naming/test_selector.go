@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-go/naming/selector"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/selector"
 )
 
 type testSelector struct {

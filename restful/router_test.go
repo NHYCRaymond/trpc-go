@@ -28,13 +28,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/filter"
-	thttp "trpc.group/trpc-go/trpc-go/http"
-	"trpc.group/trpc-go/trpc-go/restful"
-	"trpc.group/trpc-go/trpc-go/server"
-	"trpc.group/trpc-go/trpc-go/testdata/restful/helloworld"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/filter"
+	thttp "github.com/NHYCRaymond/trpc-go/http"
+	"github.com/NHYCRaymond/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/testdata/restful/helloworld"
 )
 
 // ------------------------------------- old stub -----------------------------------------//

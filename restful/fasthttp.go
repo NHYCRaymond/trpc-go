@@ -20,7 +20,7 @@ import (
 
 	"github.com/valyala/fasthttp"
 	"google.golang.org/protobuf/proto"
-	"trpc.group/trpc-go/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/errs"
 )
 
 // FastHTTPHeaderMatcher matches fasthttp request header to tRPC Stub Context.

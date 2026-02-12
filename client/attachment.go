@@ -16,7 +16,7 @@ package client
 import (
 	"io"
 
-	"trpc.group/trpc-go/trpc-go/internal/attachment"
+	"github.com/NHYCRaymond/trpc-go/internal/attachment"
 )
 
 // Attachment stores the Attachment of tRPC requests/responses.

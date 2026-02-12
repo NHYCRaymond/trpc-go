@@ -21,8 +21,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"trpc.group/trpc-go/trpc-go/naming/bannednodes"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/bannednodes"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 // go test -v -coverprofile=cover.out

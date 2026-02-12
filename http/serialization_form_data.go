@@ -17,7 +17,7 @@ import (
 	"errors"
 	"net/url"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 var (

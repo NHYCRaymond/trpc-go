@@ -18,10 +18,10 @@ import (
 	"bytes"
 	"io"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	pb "trpc.group/trpc-go/trpc-go/examples/features/attachment/proto/echo"
-	"trpc.group/trpc-go/trpc-go/log"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	pb "github.com/NHYCRaymond/trpc-go/examples/features/attachment/proto/echo"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 func main() {

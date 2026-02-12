@@ -21,9 +21,9 @@ import (
 	"net"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	intertls "trpc.group/trpc-go/trpc-go/internal/tls"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	intertls "github.com/NHYCRaymond/trpc-go/internal/tls"
 )
 
 // GetOptions is the get conn configuration.

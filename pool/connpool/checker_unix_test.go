@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 const network = "tcp"

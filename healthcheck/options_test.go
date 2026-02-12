@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/healthcheck"
+	"github.com/NHYCRaymond/trpc-go/healthcheck"
 )
 
 func TestWithStatusWatcher(t *testing.T) {

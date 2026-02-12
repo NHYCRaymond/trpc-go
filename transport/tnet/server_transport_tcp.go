@@ -28,18 +28,18 @@ import (
 	"time"
 
 	"github.com/panjf2000/ants/v2"
-	"trpc.group/trpc-go/tnet"
-	"trpc.group/trpc-go/tnet/tls"
-	"trpc.group/trpc-go/trpc-go/internal/reuseport"
+	"github.com/NHYCRaymond/tnet"
+	"github.com/NHYCRaymond/tnet/tls"
+	"github.com/NHYCRaymond/trpc-go/internal/reuseport"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/addrutil"
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	intertls "trpc.group/trpc-go/trpc-go/internal/tls"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/transport"
-	"trpc.group/trpc-go/trpc-go/transport/internal/frame"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/addrutil"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	intertls "github.com/NHYCRaymond/trpc-go/internal/tls"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/transport/internal/frame"
 )
 
 type task struct {

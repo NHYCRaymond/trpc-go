@@ -47,7 +47,7 @@ func TestFrameFormat(t *testing.T) {
 	}, {
 		initpc,
 		"%+s",
-		"trpc.group/trpc-go/trpc-go/errs.init\n" +
+		"github.com/NHYCRaymond/trpc-go/errs.init\n" +
 			"\t.+errs/stack_test.go",
 	}, {
 		0,
@@ -94,7 +94,7 @@ func TestFrameFormat(t *testing.T) {
 	}, {
 		initpc,
 		"%+v",
-		"trpc.group/trpc-go/trpc-go/errs.init\n" +
+		"github.com/NHYCRaymond/trpc-go/errs.init\n" +
 			"\t.+errs/stack_test.go",
 	}, {
 		0,
@@ -190,9 +190,9 @@ func TestStackTraceFormat(t *testing.T) {
 		getStackTrace()[:2],
 		"%+v",
 		"\n" +
-			"trpc.group/trpc-go/trpc-go/errs.getStackTrace\n" +
+			"github.com/NHYCRaymond/trpc-go/errs.getStackTrace\n" +
 			"\t.+errs/stack_test.go:134\n" +
-			"trpc.group/trpc-go/trpc-go/errs.TestStackTraceFormat\n" +
+			"github.com/NHYCRaymond/trpc-go/errs.TestStackTraceFormat\n" +
 			"\t.+errs/stack_test.go:190",
 	}, {
 		getStackTrace()[:2],

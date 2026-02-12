@@ -30,10 +30,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/pool/connpool"
-	"trpc.group/trpc-go/trpc-go/pool/multiplexed"
-	"trpc.group/trpc-go/trpc-go/transport/tnet"
-	"trpc.group/trpc-go/trpc-go/transport/tnet/multiplex"
+	"github.com/NHYCRaymond/trpc-go/pool/connpool"
+	"github.com/NHYCRaymond/trpc-go/pool/multiplexed"
+	"github.com/NHYCRaymond/trpc-go/transport/tnet"
+	"github.com/NHYCRaymond/trpc-go/transport/tnet/multiplex"
 )
 
 var (

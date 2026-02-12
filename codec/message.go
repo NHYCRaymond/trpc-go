@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/errs"
 )
 
 // ContextKey is trpc context key type, the specific value is judged

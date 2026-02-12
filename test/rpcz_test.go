@@ -21,8 +21,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/html"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
 )
 
 func (s *TestSuite) testRPCZBriefSpansOk() {

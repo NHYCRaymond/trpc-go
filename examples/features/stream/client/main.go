@@ -24,10 +24,10 @@ import (
 	"io"
 	"strconv"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	pb "trpc.group/trpc-go/trpc-go/examples/features/stream/proto"
-	"trpc.group/trpc-go/trpc-go/log"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	pb "github.com/NHYCRaymond/trpc-go/examples/features/stream/proto"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 // streamType define stream type parameter and get.

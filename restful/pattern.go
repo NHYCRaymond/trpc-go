@@ -13,7 +13,7 @@
 
 package restful
 
-import "trpc.group/trpc-go/trpc-go/internal/httprule"
+import "github.com/NHYCRaymond/trpc-go/internal/httprule"
 
 // Pattern makes *httprule.PathTemplate accessible.
 type Pattern struct {

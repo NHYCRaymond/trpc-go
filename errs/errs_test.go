@@ -24,9 +24,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	"github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/errs"
 )
 
 // go test -v -coverprofile=cover.out
@@ -133,19 +133,19 @@ func TestTraceError(t *testing.T) {
 	assert.Nil(t, err)
 
 	line, isPrefix, err = br.ReadLine()
-	assert.Equal(t, "trpc.group/trpc-go/trpc-go/errs_test.grandson", string(line))
+	assert.Equal(t, "github.com/NHYCRaymond/trpc-go/errs_test.grandson", string(line))
 	assert.Equal(t, isPrefix, false)
 	assert.Nil(t, err)
 
 	_, _, _ = br.ReadLine()
 	line, isPrefix, err = br.ReadLine()
-	assert.Equal(t, "trpc.group/trpc-go/trpc-go/errs_test.child", string(line))
+	assert.Equal(t, "github.com/NHYCRaymond/trpc-go/errs_test.child", string(line))
 	assert.Equal(t, isPrefix, false)
 	assert.Nil(t, err)
 
 	_, _, _ = br.ReadLine()
 	line, isPrefix, err = br.ReadLine()
-	assert.Equal(t, "trpc.group/trpc-go/trpc-go/errs_test.parent", string(line))
+	assert.Equal(t, "github.com/NHYCRaymond/trpc-go/errs_test.parent", string(line))
 	assert.Equal(t, isPrefix, false)
 	assert.Nil(t, err)
 }
@@ -171,19 +171,19 @@ func TestTraceErrorSetStackSkip(t *testing.T) {
 
 	line, isPrefix, err = br.ReadLine()
 	t.Log(string(line))
-	assert.Contains(t, string(line), "trpc.group/trpc-go/trpc-go/errs_test.TestTraceErrorSetStackSkip")
+	assert.Contains(t, string(line), "github.com/NHYCRaymond/trpc-go/errs_test.TestTraceErrorSetStackSkip")
 	assert.Equal(t, isPrefix, false)
 	assert.Nil(t, err)
 
 	_, _, _ = br.ReadLine()
 	line, isPrefix, err = br.ReadLine()
-	assert.Equal(t, "trpc.group/trpc-go/trpc-go/errs_test.TestTraceErrorSetStackSkip.func1", string(line))
+	assert.Equal(t, "github.com/NHYCRaymond/trpc-go/errs_test.TestTraceErrorSetStackSkip.func1", string(line))
 	assert.Equal(t, isPrefix, false)
 	assert.Nil(t, err)
 
 	_, _, _ = br.ReadLine()
 	line, isPrefix, err = br.ReadLine()
-	assert.Equal(t, "trpc.group/trpc-go/trpc-go/errs_test.TestTraceErrorSetStackSkip", string(line))
+	assert.Equal(t, "github.com/NHYCRaymond/trpc-go/errs_test.TestTraceErrorSetStackSkip", string(line))
 	assert.Equal(t, isPrefix, false)
 	assert.Nil(t, err)
 }
@@ -208,7 +208,7 @@ func TestSetTraceableWithContent(t *testing.T) {
 	assert.Nil(t, err)
 
 	line, isPrefix, err = br.ReadLine()
-	assert.Equal(t, "trpc.group/trpc-go/trpc-go/errs_test.child", string(line))
+	assert.Equal(t, "github.com/NHYCRaymond/trpc-go/errs_test.child", string(line))
 	assert.Equal(t, isPrefix, false)
 	assert.Nil(t, err)
 }
@@ -291,7 +291,7 @@ func TestWrapSetTraceable(t *testing.T) {
 	assert.Nil(t, err)
 
 	line, isPrefix, err = br.ReadLine()
-	assert.Equal(t, "trpc.group/trpc-go/trpc-go/errs_test.grandson", string(line))
+	assert.Equal(t, "github.com/NHYCRaymond/trpc-go/errs_test.grandson", string(line))
 	assert.Equal(t, isPrefix, false)
 	assert.Nil(t, err)
 }

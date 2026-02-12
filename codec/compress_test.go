@@ -20,7 +20,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 // go test -v -coverprofile=cover.out

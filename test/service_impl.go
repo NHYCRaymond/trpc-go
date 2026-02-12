@@ -20,9 +20,9 @@ import (
 	"io"
 	"time"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/errs"
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
 )
 
 // TRPCService to test tRPC service.

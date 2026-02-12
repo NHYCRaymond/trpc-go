@@ -50,18 +50,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/http2"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/filter"
-	thttp "trpc.group/trpc-go/trpc-go/http"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-go/server"
-	"trpc.group/trpc-go/trpc-go/testdata/restful/helloworld"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/filter"
+	thttp "github.com/NHYCRaymond/trpc-go/http"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/testdata/restful/helloworld"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 func newNoopStdHTTPServer() *http.Server { return &http.Server{} }

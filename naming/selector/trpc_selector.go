@@ -17,11 +17,11 @@ import (
 	"errors"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/naming/circuitbreaker"
-	"trpc.group/trpc-go/trpc-go/naming/discovery"
-	"trpc.group/trpc-go/trpc-go/naming/loadbalance"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-go/naming/servicerouter"
+	"github.com/NHYCRaymond/trpc-go/naming/circuitbreaker"
+	"github.com/NHYCRaymond/trpc-go/naming/discovery"
+	"github.com/NHYCRaymond/trpc-go/naming/loadbalance"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/servicerouter"
 )
 
 // Errors when route failed.

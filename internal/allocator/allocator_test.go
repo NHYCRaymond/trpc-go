@@ -16,7 +16,7 @@ package allocator_test
 import (
 	"testing"
 
-	. "trpc.group/trpc-go/trpc-go/internal/allocator"
+	. "github.com/NHYCRaymond/trpc-go/internal/allocator"
 
 	"github.com/stretchr/testify/require"
 )

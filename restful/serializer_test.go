@@ -19,9 +19,9 @@ import (
 	"strings"
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/restful"
-	"trpc.group/trpc-go/trpc-go/testdata/restful/bookstore"
-	"trpc.group/trpc-go/trpc-go/testdata/restful/helloworld"
+	"github.com/NHYCRaymond/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/testdata/restful/bookstore"
+	"github.com/NHYCRaymond/trpc-go/testdata/restful/helloworld"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"

@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/valyala/fasthttp"
-	"trpc.group/trpc-go/trpc-go/internal/reuseport"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	"github.com/NHYCRaymond/trpc-go/internal/reuseport"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/restful"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 var (

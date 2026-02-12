@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	thttp "trpc.group/trpc-go/trpc-go/http"
-	"trpc.group/trpc-go/trpc-go/server"
-	"trpc.group/trpc-go/trpc-go/transport"
+	thttp "github.com/NHYCRaymond/trpc-go/http"
+	"github.com/NHYCRaymond/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 // TestPassedListener tests passing listener.

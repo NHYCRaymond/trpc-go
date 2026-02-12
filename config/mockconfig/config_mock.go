@@ -22,7 +22,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	config "trpc.group/trpc-go/trpc-go/config"
+	config "github.com/NHYCRaymond/trpc-go/config"
 )
 
 // MockUnmarshaler is a mock of Unmarshaler interface

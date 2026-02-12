@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	. "trpc.group/trpc-go/trpc-go/naming/bannednodes"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	. "github.com/NHYCRaymond/trpc-go/naming/bannednodes"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 func TestNewFromCtx(t *testing.T) {

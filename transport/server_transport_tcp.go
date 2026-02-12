@@ -24,14 +24,14 @@ import (
 
 	"github.com/panjf2000/ants/v2"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/addrutil"
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	"trpc.group/trpc-go/trpc-go/internal/writev"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/rpcz"
-	"trpc.group/trpc-go/trpc-go/transport/internal/frame"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/addrutil"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/internal/writev"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/transport/internal/frame"
 )
 
 const defaultBufferSize = 128 * 1024

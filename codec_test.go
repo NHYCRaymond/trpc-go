@@ -27,14 +27,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
-	"trpc.group/trpc-go/trpc-go/internal/attachment"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	"github.com/NHYCRaymond/trpc-go/internal/attachment"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/pool/multiplexed"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/pool/multiplexed"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 func TestFramer_ReadFrame(t *testing.T) {

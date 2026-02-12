@@ -18,7 +18,7 @@ import (
 	"strings"
 	"sync"
 
-	"trpc.group/trpc-go/trpc-go/internal/stack"
+	"github.com/NHYCRaymond/trpc-go/internal/stack"
 )
 
 var (

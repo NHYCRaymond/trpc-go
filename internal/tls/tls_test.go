@@ -17,7 +17,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"trpc.group/trpc-go/trpc-go/internal/tls"
+	"github.com/NHYCRaymond/trpc-go/internal/tls"
 )
 
 func TestGetServerConfig(t *testing.T) {

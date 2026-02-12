@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 const (

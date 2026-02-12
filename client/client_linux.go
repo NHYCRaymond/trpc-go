@@ -4,9 +4,9 @@
 package client
 
 import (
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/transport"
-	"trpc.group/trpc-go/trpc-go/transport/tnet"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/transport/tnet"
 )
 
 func attemptSwitchingTransport(o *Options) transport.ClientTransport {

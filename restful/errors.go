@@ -18,10 +18,10 @@ import (
 	"net/http"
 
 	"github.com/valyala/fasthttp"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/restful/errors"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/restful/errors"
 )
 
 const (

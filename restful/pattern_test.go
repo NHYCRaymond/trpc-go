@@ -17,7 +17,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"trpc.group/trpc-go/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/restful"
 )
 
 func TestPattern(t *testing.T) {

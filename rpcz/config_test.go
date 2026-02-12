@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
 )
 
 func TestRPCZ_ShouldRecord(t *testing.T) {

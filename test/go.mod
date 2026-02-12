@@ -1,8 +1,8 @@
-module trpc.group/trpc-go/trpc-go/test
+module github.com/NHYCRaymond/trpc-go/test
 
 go 1.18
 
-replace trpc.group/trpc-go/trpc-go => ../
+replace github.com/NHYCRaymond/trpc-go => ../
 
 require (
 	github.com/kavu/go_reuseport v1.5.0
@@ -12,8 +12,8 @@ require (
 	golang.org/x/sync v0.4.0
 	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v3 v3.0.1
-	trpc.group/trpc-go/trpc-go v0.0.0-00010101000000-000000000000
-	trpc.group/trpc/trpc-protocol/pb/go/trpc v1.0.0
+	github.com/NHYCRaymond/trpc-go v0.0.0-00010101000000-000000000000
+	github.com/NHYCRaymond/trpc-protocol v1.0.0-new
 )
 
 require (
@@ -43,5 +43,5 @@ require (
 	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
-	trpc.group/trpc-go/tnet v1.0.1 // indirect
+	github.com/NHYCRaymond/tnet v1.0.0-new // indirect
 )

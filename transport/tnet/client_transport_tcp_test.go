@@ -24,14 +24,14 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"trpc.group/trpc-go/tnet"
+	"github.com/NHYCRaymond/tnet"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/pool/connpool"
-	"trpc.group/trpc-go/trpc-go/transport"
-	tnettrans "trpc.group/trpc-go/trpc-go/transport/tnet"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/pool/connpool"
+	"github.com/NHYCRaymond/trpc-go/transport"
+	tnettrans "github.com/NHYCRaymond/trpc-go/transport/tnet"
 )
 
 func TestClientTCP(t *testing.T) {

@@ -16,8 +16,8 @@ package server
 import (
 	"context"
 
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/filter"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/filter"
 )
 
 // mayConvert2FullLinkTimeout infers whether an error is caused by a full-link

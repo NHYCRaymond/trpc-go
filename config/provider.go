@@ -20,7 +20,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 func init() {

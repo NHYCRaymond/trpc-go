@@ -24,10 +24,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/config"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/config"
 
-	trpc "trpc.group/trpc-go/trpc-go"
+	trpc "github.com/NHYCRaymond/trpc-go"
 )
 
 type mockResponse struct {

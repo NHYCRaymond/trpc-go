@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 // ctxKeyBannedNodes is the key of the context.

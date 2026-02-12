@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	thttp "trpc.group/trpc-go/trpc-go/http"
+	thttp "github.com/NHYCRaymond/trpc-go/http"
 )
 
 func TestStdHTTPClient(t *testing.T) {

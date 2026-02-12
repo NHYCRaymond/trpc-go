@@ -14,7 +14,7 @@
 package discovery
 
 import (
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 // IPDiscovery discovers node by IPs.

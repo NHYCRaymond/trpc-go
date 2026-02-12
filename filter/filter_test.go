@@ -20,8 +20,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
-	"trpc.group/trpc-go/trpc-go/filter"
-	"trpc.group/trpc-go/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/filter"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
 )
 
 func TestFilterChain(t *testing.T) {

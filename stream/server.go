@@ -20,17 +20,17 @@ import (
 	"sync"
 
 	"go.uber.org/atomic"
-	"trpc.group/trpc-go/trpc-go/internal/addrutil"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	"github.com/NHYCRaymond/trpc-go/internal/addrutil"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	icodec "trpc.group/trpc-go/trpc-go/internal/codec"
-	"trpc.group/trpc-go/trpc-go/internal/queue"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/server"
-	"trpc.group/trpc-go/trpc-go/transport"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	icodec "github.com/NHYCRaymond/trpc-go/internal/codec"
+	"github.com/NHYCRaymond/trpc-go/internal/queue"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 // serverStream is a structure provided to the service implementation logic,

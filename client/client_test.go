@@ -23,18 +23,18 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/filter"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-go/naming/selector"
-	"trpc.group/trpc-go/trpc-go/transport"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/filter"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/selector"
+	"github.com/NHYCRaymond/trpc-go/transport"
 
-	_ "trpc.group/trpc-go/trpc-go"
+	_ "github.com/NHYCRaymond/trpc-go"
 )
 
 // go test -v -coverprofile=cover.out

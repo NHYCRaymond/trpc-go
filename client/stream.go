@@ -16,11 +16,11 @@ package client
 import (
 	"context"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	icodec "trpc.group/trpc-go/trpc-go/internal/codec"
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	icodec "github.com/NHYCRaymond/trpc-go/internal/codec"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 // Stream is the interface that performs streaming RPCs.

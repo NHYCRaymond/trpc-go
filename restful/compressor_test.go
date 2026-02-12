@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/restful"
 )
 
 type anonymousCompressor struct {

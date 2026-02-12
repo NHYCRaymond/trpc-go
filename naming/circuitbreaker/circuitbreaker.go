@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 // DefaultCircuitBreaker is the default circuit breaker.

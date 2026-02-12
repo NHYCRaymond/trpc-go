@@ -16,8 +16,8 @@ package codec_test
 import (
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	icodec "trpc.group/trpc-go/trpc-go/internal/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	icodec "github.com/NHYCRaymond/trpc-go/internal/codec"
 )
 
 func TestIsValidSerializationType(t *testing.T) {

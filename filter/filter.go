@@ -21,7 +21,7 @@ import (
 	"context"
 	"sync"
 
-	"trpc.group/trpc-go/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
 )
 
 // ClientHandleFunc defines the client side filter(interceptor) function type.

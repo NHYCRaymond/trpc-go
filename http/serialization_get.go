@@ -16,7 +16,7 @@ package http
 import (
 	"errors"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 func init() {

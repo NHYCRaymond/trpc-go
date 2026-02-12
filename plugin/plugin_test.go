@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"trpc.group/trpc-go/trpc-go/plugin"
+	"github.com/NHYCRaymond/trpc-go/plugin"
 )
 
 type mockPlugin struct{}

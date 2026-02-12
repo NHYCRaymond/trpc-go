@@ -19,7 +19,7 @@ import (
 	"fmt"
 	stdhttp "net/http"
 
-	"trpc.group/trpc-go/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/server"
 )
 
 // ServiceDesc is descriptor for server.RegisterService.

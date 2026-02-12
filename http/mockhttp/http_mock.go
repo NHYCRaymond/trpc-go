@@ -22,7 +22,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	client "trpc.group/trpc-go/trpc-go/client"
+	client "github.com/NHYCRaymond/trpc-go/client"
 )
 
 // MockClient is a mock of Client interface

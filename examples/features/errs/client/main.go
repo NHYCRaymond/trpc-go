@@ -20,9 +20,9 @@ import (
 	"log"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/client"
 
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 var addr = flag.String("addr", "ip://127.0.0.1:8000", "the address to connect to")

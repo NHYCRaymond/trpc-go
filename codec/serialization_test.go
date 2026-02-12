@@ -18,11 +18,11 @@ import (
 
 	flatbuffers "github.com/google/flatbuffers/go"
 	"github.com/stretchr/testify/assert"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	fb "trpc.group/trpc-go/trpc-go/testdata/fbstest"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	fb "github.com/NHYCRaymond/trpc-go/testdata/fbstest"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 // go test -v -coverprofile=cover.out

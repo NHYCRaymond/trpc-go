@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"trpc.group/trpc-go/trpc-go/internal/ring"
+	"github.com/NHYCRaymond/trpc-go/internal/ring"
 )
 
 var (

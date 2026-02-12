@@ -19,9 +19,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/errs"
 
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
 )
 
 func Test_newPayload(t *testing.T) {

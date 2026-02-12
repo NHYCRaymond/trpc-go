@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"net"
 
-	"trpc.group/trpc-go/tnet"
-	"trpc.group/trpc-go/tnet/tls"
+	"github.com/NHYCRaymond/tnet"
+	"github.com/NHYCRaymond/tnet/tls"
 
-	"trpc.group/trpc-go/trpc-go/errs"
-	intertls "trpc.group/trpc-go/trpc-go/internal/tls"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/pool/connpool"
-	"trpc.group/trpc-go/trpc-go/pool/multiplexed"
-	"trpc.group/trpc-go/trpc-go/transport"
-	"trpc.group/trpc-go/trpc-go/transport/tnet/multiplex"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	intertls "github.com/NHYCRaymond/trpc-go/internal/tls"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/pool/connpool"
+	"github.com/NHYCRaymond/trpc-go/pool/multiplexed"
+	"github.com/NHYCRaymond/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/transport/tnet/multiplex"
 )
 
 func init() {

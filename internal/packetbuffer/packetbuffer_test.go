@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"trpc.group/trpc-go/trpc-go/internal/packetbuffer"
+	"github.com/NHYCRaymond/trpc-go/internal/packetbuffer"
 )
 
 type udpServer struct {

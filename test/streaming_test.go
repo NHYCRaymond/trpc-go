@@ -22,11 +22,11 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/server"
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/server"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
 )
 
 func (s *TestSuite) TestBidirectionalStreamingServerCrashWhenReceivingMessage() {

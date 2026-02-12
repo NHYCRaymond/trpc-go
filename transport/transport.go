@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"sync"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 var (

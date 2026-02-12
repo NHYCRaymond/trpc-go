@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-multierror"
-	"trpc.group/trpc-go/trpc-go/internal/packetbuffer"
-	"trpc.group/trpc-go/trpc-go/internal/queue"
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/pool/connpool"
+	"github.com/NHYCRaymond/trpc-go/internal/packetbuffer"
+	"github.com/NHYCRaymond/trpc-go/internal/queue"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/pool/connpool"
 )
 
 // DefaultMultiplexedPool is the default multiplexed implementation.

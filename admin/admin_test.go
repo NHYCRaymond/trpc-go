@@ -33,11 +33,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/config"
-	"trpc.group/trpc-go/trpc-go/healthcheck"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/rpcz"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/config"
+	"github.com/NHYCRaymond/trpc-go/healthcheck"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 const (

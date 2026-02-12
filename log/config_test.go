@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 var defaultConfig = []log.OutputConfig{

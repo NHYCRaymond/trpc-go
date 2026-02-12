@@ -15,11 +15,11 @@
 package main
 
 import (
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/log"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/log"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 )
 
 func main() {

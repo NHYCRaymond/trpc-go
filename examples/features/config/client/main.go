@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/client"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	"github.com/NHYCRaymond/trpc-go/client"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 var addr = "ip://127.0.0.1:8000"

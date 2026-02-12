@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/log"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/log"
 
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 // GreeterServerImpl service implement

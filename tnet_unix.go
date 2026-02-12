@@ -18,5 +18,5 @@ package trpc
 
 import (
 	// register tnet transport by default on unix system.
-	_ "trpc.group/trpc-go/trpc-go/transport/tnet"
+	_ "github.com/NHYCRaymond/trpc-go/transport/tnet"
 )

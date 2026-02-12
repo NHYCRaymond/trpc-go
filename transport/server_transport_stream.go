@@ -17,9 +17,9 @@ import (
 	"context"
 	"fmt"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/addrutil"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/addrutil"
 )
 
 // serverStreamTransport implements ServerStreamTransport and keeps backward compatibility with the

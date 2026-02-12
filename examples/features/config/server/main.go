@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"sync"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/config"
-	"trpc.group/trpc-go/trpc-go/examples/features/common"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/config"
+	"github.com/NHYCRaymond/trpc-go/examples/features/common"
 
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 func main() {

@@ -25,15 +25,15 @@ import (
 	"time"
 
 	yaml "gopkg.in/yaml.v3"
-	"trpc.group/trpc-go/trpc-go/internal/expandenv"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	"github.com/NHYCRaymond/trpc-go/internal/expandenv"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/rand"
-	"trpc.group/trpc-go/trpc-go/plugin"
-	"trpc.group/trpc-go/trpc-go/rpcz"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/rand"
+	"github.com/NHYCRaymond/trpc-go/plugin"
+	"github.com/NHYCRaymond/trpc-go/rpcz"
 )
 
 // ServerConfigPath is the file path of trpc server config file.

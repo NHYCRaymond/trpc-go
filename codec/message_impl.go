@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/errs"
 )
 
 // msg is the context of rpc.

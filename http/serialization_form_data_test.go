@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 func Test_getFormDataContentType(t *testing.T) {

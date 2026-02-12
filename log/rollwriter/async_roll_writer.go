@@ -22,7 +22,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"trpc.group/trpc-go/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
 )
 
 const (

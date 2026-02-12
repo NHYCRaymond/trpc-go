@@ -20,10 +20,10 @@ import (
 	"path"
 	"sync"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/addrutil"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/addrutil"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
 	"google.golang.org/protobuf/proto"
 )

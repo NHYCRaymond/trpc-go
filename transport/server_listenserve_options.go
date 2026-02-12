@@ -17,7 +17,7 @@ import (
 	"net"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 // ListenServeOptions is the server options on start.

@@ -1,14 +1,14 @@
-module trpc.group/trpc-go/trpc-go/examples
+module github.com/NHYCRaymond/trpc-go/examples
 
 go 1.18
 
-replace trpc.group/trpc-go/trpc-go => ../
+replace github.com/NHYCRaymond/trpc-go => ../
 
 require (
 	github.com/golang/protobuf v1.5.2
 	google.golang.org/protobuf v1.33.0
-	trpc.group/trpc-go/trpc-go v0.0.0-00010101000000-000000000000
-	trpc.group/trpc/trpc-protocol/pb/go/trpc v1.0.0
+	github.com/NHYCRaymond/trpc-go v0.0.0-00010101000000-000000000000
+	github.com/NHYCRaymond/trpc-protocol v1.0.0-new
 )
 
 require (
@@ -41,5 +41,5 @@ require (
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	trpc.group/trpc-go/tnet v1.0.1 // indirect
+	github.com/NHYCRaymond/tnet v1.0.0-new // indirect
 )

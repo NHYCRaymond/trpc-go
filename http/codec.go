@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	icodec "trpc.group/trpc-go/trpc-go/internal/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	icodec "github.com/NHYCRaymond/trpc-go/internal/codec"
 )
 
 // Constants of header keys related to trpc.

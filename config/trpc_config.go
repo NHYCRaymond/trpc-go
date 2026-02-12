@@ -23,9 +23,9 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/spf13/cast"
 	yaml "gopkg.in/yaml.v3"
-	"trpc.group/trpc-go/trpc-go/internal/expandenv"
+	"github.com/NHYCRaymond/trpc-go/internal/expandenv"
 
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 var (

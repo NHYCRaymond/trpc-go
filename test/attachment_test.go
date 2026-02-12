@@ -26,13 +26,13 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/server"
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/server"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 )
 
 // tRPC-Go implementation:

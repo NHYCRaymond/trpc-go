@@ -18,12 +18,12 @@ import (
 	"strings"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/internal/rand"
-	"trpc.group/trpc-go/trpc-go/naming/bannednodes"
-	"trpc.group/trpc-go/trpc-go/naming/discovery"
-	"trpc.group/trpc-go/trpc-go/naming/loadbalance"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-go/naming/servicerouter"
+	"github.com/NHYCRaymond/trpc-go/internal/rand"
+	"github.com/NHYCRaymond/trpc-go/naming/bannednodes"
+	"github.com/NHYCRaymond/trpc-go/naming/discovery"
+	"github.com/NHYCRaymond/trpc-go/naming/loadbalance"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/servicerouter"
 )
 
 func init() {

@@ -20,7 +20,7 @@ import (
 	"net"
 	"runtime"
 
-	"trpc.group/trpc-go/trpc-go/internal/ring"
+	"github.com/NHYCRaymond/trpc-go/internal/ring"
 )
 
 const (

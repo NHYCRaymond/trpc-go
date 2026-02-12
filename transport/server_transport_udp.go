@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/panjf2000/ants/v2"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/packetbuffer"
-	"trpc.group/trpc-go/trpc-go/internal/report"
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/packetbuffer"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 func (s *serverTransport) serveUDP(ctx context.Context, rwc *net.UDPConn, pool *ants.PoolWithFunc,

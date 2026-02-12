@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-multierror"
-	"trpc.group/trpc-go/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 // Serve implements Service, starting all services that belong to this server

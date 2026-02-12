@@ -26,8 +26,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 // DefaultServerCloseSIG are signals that trigger server shutdown.

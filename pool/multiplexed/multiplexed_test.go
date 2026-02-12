@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"golang.org/x/sync/errgroup"
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -18,7 +18,7 @@ package codec
 import (
 	"sync"
 
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 )
 
 // RequestType is the type of client request, such as SendAndRecv，SendOnly.

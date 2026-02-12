@@ -13,7 +13,7 @@
 
 package log_test
 
-import "trpc.group/trpc-go/trpc-go/log"
+import "github.com/NHYCRaymond/trpc-go/log"
 
 func Example() {
 	l := log.NewZapLog([]log.OutputConfig{

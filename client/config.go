@@ -18,16 +18,16 @@ import (
 	"sync"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/config"
-	"trpc.group/trpc-go/trpc-go/filter"
-	icodec "trpc.group/trpc-go/trpc-go/internal/codec"
-	"trpc.group/trpc-go/trpc-go/naming/circuitbreaker"
-	"trpc.group/trpc-go/trpc-go/naming/discovery"
-	"trpc.group/trpc-go/trpc-go/naming/loadbalance"
-	"trpc.group/trpc-go/trpc-go/naming/selector"
-	"trpc.group/trpc-go/trpc-go/naming/servicerouter"
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/config"
+	"github.com/NHYCRaymond/trpc-go/filter"
+	icodec "github.com/NHYCRaymond/trpc-go/internal/codec"
+	"github.com/NHYCRaymond/trpc-go/naming/circuitbreaker"
+	"github.com/NHYCRaymond/trpc-go/naming/discovery"
+	"github.com/NHYCRaymond/trpc-go/naming/loadbalance"
+	"github.com/NHYCRaymond/trpc-go/naming/selector"
+	"github.com/NHYCRaymond/trpc-go/naming/servicerouter"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 // BackendConfig defines the configuration needed to call the backend service.

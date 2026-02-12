@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"trpc.group/trpc-go/trpc-go/metrics"
+	"github.com/NHYCRaymond/trpc-go/metrics"
 )
 
 func TestNewCounter(t *testing.T) {

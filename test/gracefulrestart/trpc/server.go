@@ -19,9 +19,9 @@ import (
 	"os"
 	"strconv"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/test"
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/test"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
 )
 
 func main() {

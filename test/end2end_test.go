@@ -28,14 +28,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/server"
-	"trpc.group/trpc-go/trpc-go/transport"
-	"trpc.group/trpc-go/trpc-go/transport/tnet"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/transport/tnet"
 
-	testpb "trpc.group/trpc-go/trpc-go/test/protocols"
-	"trpc.group/trpc-go/trpc-go/test/testdata"
+	testpb "github.com/NHYCRaymond/trpc-go/test/protocols"
+	"github.com/NHYCRaymond/trpc-go/test/testdata"
 )
 
 // TestRunSuite run test suite in TestSuite.

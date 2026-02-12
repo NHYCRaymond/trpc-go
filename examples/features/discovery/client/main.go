@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/naming/discovery"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/naming/discovery"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 var serviceAddrMap sync.Map

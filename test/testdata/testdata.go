@@ -32,7 +32,7 @@ func BasePath() string {
 }
 
 // Path returns the absolute path the given relative file or directory path,
-// relative to the trpc.group/trpc-go/trpc-go/test/testdata directory in the user's GOPATH.
+// relative to the github.com/NHYCRaymond/trpc-go/test/testdata directory in the user's GOPATH.
 // If relativePath is already absolute, it is returned unmodified.
 func Path(relativePath string) string {
 	if filepath.IsAbs(relativePath) {

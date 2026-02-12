@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	trpcpb "trpc.group/trpc/trpc-protocol/pb/go/trpc"
+	trpcpb "github.com/NHYCRaymond/trpc-protocol"
 )
 
 // trpc return code.

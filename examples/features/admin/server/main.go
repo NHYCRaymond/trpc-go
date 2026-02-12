@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"net/http"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/admin"
-	"trpc.group/trpc-go/trpc-go/examples/features/common"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/admin"
+	"github.com/NHYCRaymond/trpc-go/examples/features/common"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 // testCmds defines a custom admin command

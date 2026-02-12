@@ -22,7 +22,7 @@ import (
 	"net"
 	"syscall"
 
-	"trpc.group/trpc-go/trpc-go/internal/report"
+	"github.com/NHYCRaymond/trpc-go/internal/report"
 )
 
 func checkConnErr(conn net.Conn, buf []byte) error {

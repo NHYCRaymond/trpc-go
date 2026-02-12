@@ -25,8 +25,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/internal/dat"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/internal/dat"
 )
 
 const (

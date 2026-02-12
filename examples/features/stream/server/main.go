@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	pb "trpc.group/trpc-go/trpc-go/examples/features/stream/proto"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/server"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	pb "github.com/NHYCRaymond/trpc-go/examples/features/stream/proto"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/server"
 )
 
 func main() {

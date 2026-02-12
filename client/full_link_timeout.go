@@ -13,7 +13,7 @@
 
 package client
 
-import "trpc.group/trpc-go/trpc-go/errs"
+import "github.com/NHYCRaymond/trpc-go/errs"
 
 // mayConvert2FullLinkTimeout infers whether an error is caused by a full-link
 // timeout. If so, it returns the full-link timeout error.

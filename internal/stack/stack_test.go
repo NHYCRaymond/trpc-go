@@ -16,7 +16,7 @@ package stack_test
 import (
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/internal/stack"
+	"github.com/NHYCRaymond/trpc-go/internal/stack"
 
 	"github.com/stretchr/testify/require"
 )

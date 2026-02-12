@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"log"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	pb "trpc.group/trpc-go/trpc-go/testdata/trpc/helloworld"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	pb "github.com/NHYCRaymond/trpc-go/testdata/trpc/helloworld"
 )
 
 func main() {

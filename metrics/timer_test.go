@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/metrics"
+	"github.com/NHYCRaymond/trpc-go/metrics"
 )
 
 // 这里 timer 的误差精度设定为 1s，通过 time.sleep 来打桩模拟业务操作，测试 timer 的工作效果

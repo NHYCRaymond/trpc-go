@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 )
 
 func BenchmarkCheckNoopCompression(b *testing.B) {

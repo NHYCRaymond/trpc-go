@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/codec"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"trpc.group/trpc-go/trpc-go/transport"
+	"github.com/NHYCRaymond/trpc-go/transport"
 
-	_ "trpc.group/trpc-go/trpc-go"
+	_ "github.com/NHYCRaymond/trpc-go"
 )
 
 // TestClientStreamNetworkError test client decode error.

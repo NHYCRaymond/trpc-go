@@ -12,7 +12,7 @@ import (
 
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	_ "trpc.group/trpc/trpc-protocol/pb/go/trpc/api"
+	_ "github.com/NHYCRaymond/trpc-protocol/api"
 )
 
 const (

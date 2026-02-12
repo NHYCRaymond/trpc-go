@@ -28,10 +28,10 @@ import (
 	"time"
 
 	"github.com/panjf2000/ants/v2"
-	"trpc.group/trpc-go/trpc-go/internal/reuseport"
+	"github.com/NHYCRaymond/trpc-go/internal/reuseport"
 
-	itls "trpc.group/trpc-go/trpc-go/internal/tls"
-	"trpc.group/trpc-go/trpc-go/log"
+	itls "github.com/NHYCRaymond/trpc-go/internal/tls"
+	"github.com/NHYCRaymond/trpc-go/log"
 )
 
 const transportName = "go-net"

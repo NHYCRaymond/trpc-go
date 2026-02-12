@@ -32,14 +32,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/codec"
-	thttp "trpc.group/trpc-go/trpc-go/http"
-	itls "trpc.group/trpc-go/trpc-go/internal/tls"
-	"trpc.group/trpc-go/trpc-go/restful"
-	"trpc.group/trpc-go/trpc-go/server"
-	"trpc.group/trpc-go/trpc-go/testdata/restful/helloworld"
-	"trpc.group/trpc-go/trpc-go/transport"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	thttp "github.com/NHYCRaymond/trpc-go/http"
+	itls "github.com/NHYCRaymond/trpc-go/internal/tls"
+	"github.com/NHYCRaymond/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/server"
+	"github.com/NHYCRaymond/trpc-go/testdata/restful/helloworld"
+	"github.com/NHYCRaymond/trpc-go/transport"
 )
 
 func TestCompatibility(t *testing.T) {

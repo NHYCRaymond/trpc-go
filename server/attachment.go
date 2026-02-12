@@ -16,8 +16,8 @@ package server
 import (
 	"io"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/internal/attachment"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/internal/attachment"
 )
 
 // Attachment stores the attachment of tRPC requests/responses.

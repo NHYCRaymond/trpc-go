@@ -21,12 +21,12 @@ import (
 	"fmt"
 
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
-	_ "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/client"
-	"trpc.group/trpc-go/trpc-go/codec"
-	_ "trpc.group/trpc-go/trpc-go/http"
-	"trpc.group/trpc-go/trpc-go/restful"
-	"trpc.group/trpc-go/trpc-go/server"
+	_ "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/client"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	_ "github.com/NHYCRaymond/trpc-go/http"
+	"github.com/NHYCRaymond/trpc-go/restful"
+	"github.com/NHYCRaymond/trpc-go/server"
 )
 
 /* ************************************ Service Definition ************************************ */

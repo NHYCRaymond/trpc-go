@@ -16,9 +16,9 @@ package loadbalance
 import (
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/internal/rand"
-	"trpc.group/trpc-go/trpc-go/naming/bannednodes"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/internal/rand"
+	"github.com/NHYCRaymond/trpc-go/naming/bannednodes"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 )
 
 func init() {

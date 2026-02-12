@@ -23,9 +23,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/pool/connpool"
-	tnettrans "trpc.group/trpc-go/trpc-go/transport/tnet"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/pool/connpool"
+	tnettrans "github.com/NHYCRaymond/trpc-go/transport/tnet"
 )
 
 func TestDial(t *testing.T) {

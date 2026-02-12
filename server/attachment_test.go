@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/internal/attachment"
-	"trpc.group/trpc-go/trpc-go/server"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/internal/attachment"
+	"github.com/NHYCRaymond/trpc-go/server"
 )
 
 func TestAttachment(t *testing.T) {

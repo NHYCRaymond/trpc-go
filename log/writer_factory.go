@@ -17,7 +17,7 @@ import (
 	"errors"
 	"path/filepath"
 
-	"trpc.group/trpc-go/trpc-go/plugin"
+	"github.com/NHYCRaymond/trpc-go/plugin"
 )
 
 var (

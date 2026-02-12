@@ -20,10 +20,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	yaml "gopkg.in/yaml.v3"
 
-	trpc "trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/plugin"
+	trpc "github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/plugin"
 )
 
 func TestRegister(t *testing.T) {
